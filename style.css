@@ -288,7 +288,7 @@ body{
     border-radius: 10px;
     border: 1px solid white;
 } 
-@media(min-width:300px) (max-width:1280px){
+@media(min-width:300px) and (max-width:1280px){
     .btn2{
         width: 70%;
 
