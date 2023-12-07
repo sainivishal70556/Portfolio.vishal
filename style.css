@@ -278,6 +278,13 @@ body{
     
     
 }
+@media(min-width:300px) and (max-width:600px){
+    .title22{
+        grid-template-columns: 25px 200px;
+        grid-template-rows: 100px 200px;
+
+    }
+}
 .btn2{
     height: 300px;
     width: 100%;
