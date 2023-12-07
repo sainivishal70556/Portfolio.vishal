@@ -186,6 +186,13 @@ body{
 @media (min-width:1080px){
     .education1{
         grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+@media(min-width:300px) and (max-width:700px){
+    .education1{
+        row-gap: 170px;
+
     }
 }
 
@@ -254,6 +261,13 @@ body{
 
     
 }
+@media(min-width:300px) and (max-width:700px){
+    .title4{
+        height: 300px;
+        width: 170px;
+
+    }
+}
 .title4 :first-child{
     font-weight: 600;
     font-size: 50px;
@@ -262,6 +276,7 @@ body{
     margin-top: 20px;
     align-items: flex-start;
 }
+
 .title4 :nth-child(2){
     display: flex;
     font-size: 26px;
@@ -269,6 +284,7 @@ body{
     
     
 }
+
 
 .title22{
     display: grid;
@@ -278,13 +294,15 @@ body{
     
     
 }
-@media(min-width:300px) and (max-width:600px){
+@media(min-width:300px) and (max-width:700px){
     .title22{
         grid-template-columns: 25px 200px;
         grid-template-rows: 100px 200px;
 
     }
 }
+
+
 .btn2{
     height: 300px;
     width: 100%;
@@ -294,10 +312,15 @@ body{
     border-color: black;
     border-radius: 10px;
     border: 1px solid white;
-} 
-@media(min-width:300px) and (max-width:1280px){
+}    
+
+@media(min-width:300px) and (max-width:700px){
     .btn2{
         width: 70%;
+        height: 470px;
+        margin-top: 0;
+        
+       
 
     }
 }
